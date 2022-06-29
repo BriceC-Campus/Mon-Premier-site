@@ -8,6 +8,7 @@
 * {
 	font-family: "Heebo", sans-serif;
 	/* border: solid red 1px; */
+	box-sizing: border-box;
 }
 body {
 	background-image: url("./videos/z69-crop.gif");
@@ -206,7 +207,8 @@ li:hover {
 #submit_input,
 #submit_btn,
 #textarea,
-#age_input {
+#age_input,
+#btn-1 {
 	background-color: transparent;
 	border: solid 1px #393939;
 	border-radius: 5px;
@@ -215,7 +217,8 @@ li:hover {
 	transition: 500ms;
 }
 #submit_input:hover,
-#submit_btn:hover {
+#submit_btn:hover,
+#btn-1:hover {
 	background-color: #393939;
 	color: #ffffff;
 	filter: var(--anaglyphe);

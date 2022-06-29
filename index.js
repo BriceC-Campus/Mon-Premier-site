@@ -1,8 +1,4 @@
-// alert("Salut la compagnie !");
-// console.log(24+12);
-
-let chiffre = 24;
-
-let chaine = `Le chiffre attendu est : ${chiffre}`;
-
-console.log(chaine);
+const cbLOLz = document.querySelector("#btn-1");
+cbLOLz.addEventListener("click", () => {
+	console.log("click!");
+});
