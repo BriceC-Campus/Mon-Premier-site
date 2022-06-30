@@ -321,3 +321,14 @@ li:hover {
 		flex-direction: column;
 	}
 }
+
+/* JS stuff */
+.mousemove {
+	height: 40px;
+	width: 40px;
+	border: 1px solid #232323;
+	position: absolute;
+	border-radius: 50px;
+	filter: var(--anaglyphe);
+	z-index: -1;
+}
